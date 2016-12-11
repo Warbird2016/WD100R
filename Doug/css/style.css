@@ -1,0 +1,164 @@
+body {
+  background-color: lightblue;
+}
+
+#about {
+  background-color: lightgreen;
+}
+
+main {
+  width: 100%;
+}
+
+//pseudo css commands
+#about a:hover {
+color: purple;
+text-decoloration: underline;
+font-size: 200%;
+}
+
+#about a:visited {
+color: gray;
+background-color: red;
+}
+
+#about #menu-start {
+display: inline-block;
+position: relative;
+z-index: 10;
+width: 210px;
+height: 600 px;
+margin: 0;
+font-weight: normal;
+color: blue;
+}
+
+#about #text-intro {
+  position: relative;
+  display: block;
+  text-wrap: normal;
+  width: 480px
+  height: 1000px;
+  border-width: 5px;
+  border-style: ridge;
+  border-color: green;
+  text-align: left;
+  border-radius: 10px;
+  border-bottom: 3px solid blue;
+  border-left: 1px solid black; 
+  border-right: 1px solid black;
+  border-bottom-width: 3px;
+  margin: 0 auto;
+  background-color: lightblue;
+}
+
+#about #atTheEnd {
+position: absolute;
+display: in-line;
+width: 20%;
+height: 20%;
+left: 20px;
+}
+
+/*galley-page*/
+/*
+body {
+  background-color: lightblue;
+}
+
+main {
+  width: 100%;
+}
+*/
+
+#Intro {
+  border-width: 5px;
+  border-style: ridge;
+  width: 450px;
+  border-color: green;
+  text-align: center;
+  border-radius: 10px;
+}
+
+#Starting {
+  border-width: thick;
+  border-style: double;
+  width: 500px;
+  border-color: purple;
+  text-align: center;
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+
+.img {
+  margin: 25px;
+  border: 1px solid red;
+  float: left;
+  width: 150px;
+  height: 250px;
+}
+.img:hover {
+  border: 1px solid green;
+  width: 200px;
+  height: 200px;
+}
+
+.img img {
+  width: 100%;
+  height: auto;
+  -webkit-transform: rotate(90deg);
+  display: flex;
+  flex-wrap: wrap;
+  align-content:center;
+  transition: width 2s transform 1s;
+}
+
+.desc {
+  padding: 5px;
+  margin: 15px;
+  heigth: 20px;
+  text-align: center;
+}
+
+@media screen and (min-width: 320px) {
+  div {
+    display: flex;
+    flex-wrap: wrap;
+    align-content:center;
+    width: 100%;
+    margin: 1%;
+    background-color: purple;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  div {
+    display: flex;
+    flex-wrap: wrap;
+    align-content:center;
+    width: 100%;
+    margin: 1%;
+    background-color: lightyellow;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  div {
+    display: flex;
+    flex-wrap: wrap;
+    align-content:center;
+    width: 100%;
+    margin: 1%;
+    background-color: lightgreen;
+  }
+}
+
+
+
+
+
+
+
+
+
+

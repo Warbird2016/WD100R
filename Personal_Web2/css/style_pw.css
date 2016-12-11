@@ -1,10 +1,12 @@
 body {
   background-color: lightblue;
 }
+
 main {
   width: 100%;
 }
-p.one {
+
+#Intro {
   border-width: 5px;
   border-style: ridge;
   width: 450px;
@@ -12,7 +14,8 @@ p.one {
   text-align: center;
   border-radius: 10px;
 }
-p.two {
+
+#Starting {
   border-width: thick;
   border-style: double;
   width: 500px;
@@ -21,17 +24,19 @@ p.two {
   border-radius: 10px;
   text-transform: uppercase;
 }
-div.img {
+
+.img {
   margin: 25px;
   border: 1px solid red;
   float: left;
   width: 150px;
   height: 250px;
 }
-div.img:hover {
+.img:hover {
   border: 1px solid green;
 }
-div.img img {
+
+.img img {
   width: 100%;
   height: auto;
   -webkit-transform: rotate(90deg);
@@ -40,12 +45,14 @@ div.img img {
   align-content:center;
   transition: width 2s transform 1s;
 }
-div.desc {
+
+.desc {
   padding: 5px;
   margin: 15px;
   heigth: 20px;
   text-align: center;
 }
+
 @media screen and (min-width: 500px) {
   div {
     display: flex;
@@ -53,6 +60,18 @@ div.desc {
     align-content:center;
     width: 100%;
     margin: 1%;
+    background-color: lightyellow;
+  }
+}
+
+@media screen and (min-width: 780px) {
+  div {
+    display: flex;
+    flex-wrap: wrap;
+    align-content:center;
+    width: 100%;
+    margin: 1%;
+    background-color: lightgreen;
   }
 }
 
