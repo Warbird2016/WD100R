@@ -4,33 +4,55 @@ body {
 
 #about {
   background-color: lightgreen;
+  font-family: Verdana, Geneva, Arial, sans-serif;
+  padding:10px;
+  margin:10px;
 }
 
 main {
   width: 100%;
 }
 
-//pseudo css commands
+/*pseudo css commands*/
 #about a:hover {
-color: purple;
-text-decoloration: underline;
-font-size: 200%;
+  background-color: yellow;
+  text-decoloration: none;
+  font-size: 140%;
+  width: 140%;
+  transition-timing-function: ease-in;
+  transition-delay: 1s;
+  opacity: .8;
+  box-shadow: 4px 6px 3px gray;
+  text-shadow: 0 1px 0 white, 0 -1px 0 white, 1px 0 0 white, -1px 0 0 white;
 }
 
 #about a:visited {
-color: gray;
-background-color: red;
+  color: gray;
+  background-color: yellow;
+  width: 140%
+}
+
+#about #header-style {
+  text-shadow: 0 2px 0 black, 0 -2px 0 black, 2px 0 0 black, -2px 0 0 black;
+  color: white;
 }
 
 #about #menu-start {
-display: inline-block;
-position: relative;
-z-index: 10;
-width: 210px;
-height: 600 px;
-margin: 0;
-font-weight: normal;
-color: blue;
+  display: inline-block;
+  position: relative;
+  z-index: 10;
+  width: 140px;
+  height: 400 px;
+  margin: 0 auto;
+  font-weight: normal;
+  color: blue;
+  font-size: large;
+  text-decoloration: none;
+}
+
+#about .key-style {
+  box-shadow: 6px 8px 5px gray;
+  background-color: lightpink;
 }
 
 #about #text-intro {
@@ -43,7 +65,7 @@ color: blue;
   border-style: ridge;
   border-color: green;
   text-align: left;
-  border-radius: 10px;
+  border-radius: 36px 8px 36px 8px;
   border-bottom: 3px solid blue;
   border-left: 1px solid black; 
   border-right: 1px solid black;
@@ -52,25 +74,20 @@ color: blue;
   background-color: lightblue;
 }
 
+#about mark {
+  background-color: aqua;
+}
+
 #about #atTheEnd {
-position: absolute;
-display: in-line;
-width: 20%;
-height: 20%;
-left: 20px;
+  position: absolute;
+  display: in-line;
+  width: 30%;
+  height: 20%;
+  left: 20px;
+  font-size: small;
 }
 
 /*galley-page*/
-/*
-body {
-  background-color: lightblue;
-}
-
-main {
-  width: 100%;
-}
-*/
-
 #Intro {
   border-width: 5px;
   border-style: ridge;
@@ -152,13 +169,4 @@ main {
     background-color: lightgreen;
   }
 }
-
-
-
-
-
-
-
-
-
 
